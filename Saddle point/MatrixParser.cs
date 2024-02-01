@@ -74,7 +74,7 @@ namespace Saddle_point
                 cellText = parts[j];
                 if (!int.TryParse(cellText, out value))
                 {
-                    Console.WriteLine($"Bad matrix row in input line #{lineIndex}, column #{j} text '{value}' is not a valid int input.");
+                    Console.WriteLine($"Bad matrix row in input line #{lineIndex}, column #{j} text '{cellText}' is not a valid int input.");
                     return null;
                 }
 
